@@ -2399,6 +2399,43 @@ ol {
 .blog-active .blog-details-img {
     margin-bottom: 0px;
 }
+/***/
+.brand-item{
+  margin-top: 2px;
+  padding: 2px 2px 2px;
+  height: 50px;
+  width: auto;
+  margin-right: 0px;
+  align-items: center;
+}
+
+.dominio{
+  background-image: url(/assets/images/bg/dominio.png) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.bgnic{
+  background-image: url(assets/images/brand/nic.png);
+  background-color: #92D2E2;
+  border-radius: 5px;
+
+}
+
+.bgnic img{
+  width: auto;
+  height: 150px;
+}
+.bghostinger{
+  background-image: url(assets/images/brand/nic.png);
+  background-color: #fff;
+  border-radius: 5px;
+}
+.bghostinger img{
+  width: auto;
+  height: 150px;
+}
 
 /*-------contact-area start-------*/
 .contact-page-area{

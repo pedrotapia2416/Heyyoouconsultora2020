@@ -36,6 +36,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     <!-- font-awesome v4.6.3 css -->
     <script src="https://kit.fontawesome.com/e25f6e1d42.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -145,7 +146,7 @@
 
     <!-- slider-area start -->
     <div class="slider-area">
-        <div class="slider-active owl-carousel">
+        <div class="slider-active owl-carousel" id="intro">
             <div class="slider-items">
                 <img src="assets/images/slider/ecommerce.png" alt="" class="slider">
                 <div class="slider-content flex-style">
@@ -260,7 +261,7 @@
                 <div class="col-lg-4 col-sm-6 col-12 " >
                     <div class="featured-wrap serv service-items">
                         <div class="featured-img">
-                          <a href="servmkt.html"><img src="assets/images/service/marketingdigital.png" alt=""></a>
+                          <a href="servmkt.html" class="featured-img" ><img src="assets/images/service/marketingdigital.png" alt=""></a>
 
                         </div>
                         <h2 class="divcenter"><a href="servmkt.html">MARKETING DIGITAL & SOCIAL MEDIA</a></h2>
@@ -270,47 +271,52 @@
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="featured-wrap serv service-items">
                         <div class="featured-img">
-                            <img src="assets/images/service/ecommerce.png" alt="">
+                          <a href="ecommerce.html" class="featured-img">
+                            <img src="assets/images/service/ecommerce.png" alt=""></a>
                         </div>
-                        <h2 class="divcenter"><a href="#">PLATAFORMAS ECOMMERCE</a></h2>
+                        <h2 class="divcenter"><a href="ecommerce.html">PLATAFORMAS ECOMMERCE</a></h2>
                         <p></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="featured-wrap serv service-items">
                         <div class="featured-img">
-                            <img src="assets/images/service/web.png" alt="">
+                          <a href="web.html" class="featured-img" >
+                            <img src="assets/images/service/web.png" alt=""></a>
                         </div>
-                        <h2 class="divcenter"><a href="#">SITIOS WEB</a></h2>
+                        <h2 class="divcenter"><a href="web.html">SITIOS WEB</a></h2>
                         <p></p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
+
+
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="featured-wrap serv service-items">
                         <div class="featured-img">
-                            <img src="assets/images/service/grafico.jpg" alt="">
+                          <a href="grafico.html" class="featured-img" >
+                            <img src="assets/images/service/grafico.jpg" alt=""></a>
                         </div>
-                        <h2 class="divcenter"><a href="#">SERVICIOS GRÁFICOS</a></h2>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="featured-wrap serv service-items">
-                        <div class="featured-img">
-                            <img src="assets/images/service/learning.png" alt="">
-                        </div>
-                        <h2 class="divcenter"><a href="#">PLATAFORMAS ELEARNING</a></h2>
+                        <h2 class="divcenter"><a href="grafico.html">SERVICIOS GRÁFICOS</a></h2>
                         <p></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="featured-wrap serv service-items">
                         <div class="featured-img">
-                            <img src="assets/images/service/comercial.png" alt="">
+                          <a href="elearning.html" class="featured-img"><img src="assets/images/service/learning.png" alt=""></a>
+
                         </div>
-                        <h2 class="divcenter"><a href="#">DESARROLLO COMERCIAL</a></h2>
+                        <h2 class="divcenter"><a href="elearning.html">PLATAFORMAS ELEARNING</a></h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="featured-wrap serv service-items">
+                        <div class="featured-img">
+                          <a href="comercial.html" class="featured-img"><img src="assets/images/service/comercial.png" alt=""></a>
+
+                        </div>
+                        <h2 class="divcenter"><a href="comercial.html">DESARROLLO COMERCIAL</a></h2>
                         <p></p>
                     </div>
                 </div>
@@ -357,35 +363,53 @@
                       <h3 class="text-center">Asesoramiento personalizado.</h3>
                         <p>Con la finalidad de detectar la necesidad real, buscando un equilibrio entre Calidad, Costo y Tiempo.</p>
                     </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
                     <div class="service-items">
                         <span class="fas fa-chart-line"></span>
                         <h3 class="text-center">Seguimiento continuo.</h3>
                         <p>Al finalizar el proyecto hacemos un seguimiento de cerca, asegurando su correcta implementación.</p>
                     </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-6 col-12">
+                  </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
                             <div class="service-items">
                                 <span class="fas fa-database"></span>
                                 <h3 class="text-center">Privacidad en el manejo de información y datos</h3>
                                 <p>Mantenemos absoluta confidencialidad de las empresas y entidades con las cuales trabajamos.</p>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-6 col-12">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <div class="service-items">
                                 <span class="fa fa-user-tie"></span>
                                 <h3 class="text-center">Profesionales expertos.</h3>
                                 <p>Cada profesional es experto en su área.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
     <!-- service-area end -->
+    <!-- consulta dominio -->
+    <section class=" section-title text-center">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class=" expart-wrap">
+          <h2>Consulte su dominio aquí:</h2>
+          <a href="dominio.html">|.COM | .COM.AR</a>
+        </div>
 
+      </div>
+
+    </div>
+
+    </div>
+
+    </section>
+
+    <!-- FIN consulta dominio -->
 
     <!-- about-area start -->
     <div class="about-area position-relative">
@@ -472,6 +496,46 @@
     <!-- about-area end -->
 
 
+
+    <!-- brand seccion -->
+<section class="brand service-items">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 expart-wrap">
+        <h2>Socios Comerciales</h2>
+        <p>Todas nuestras actividades estan sustentadas en redes de proveedores.</p>
+        <a href="socios.html">Quiero ser parte!</a>
+
+
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <ul class="brand-grup">
+          <div class="row">
+
+          <div class="col-lg-3 col-md-3 col-sm-3"><li ><img src="assets/images/brand/bgoogle.png" class="brand-item" alt=""></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bcyber.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bcompu.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bbotstrap.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bcaece.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bamazon.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bwordpress.png" alt=""class="brand-item"></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li class="brand-item"><img src="assets/images/brand/bunc.png" alt=""class="brand-item"></li></div>
+
+        </div>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- FIN brand seccion -->
 
     <!-- spacial-area start -->
     <div class="spacial-area">
@@ -688,6 +752,11 @@
         $("#chartContainer").CanvasJSChart(options);
     }
     </script>
+
+    <!-- owlCarousel -->
+
+
+
     <!-- main js -->
     <script src="assets/js/scripts.js "></script>
 </body>
